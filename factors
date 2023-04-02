@@ -20,14 +20,8 @@ def find_and_times(n):
     """factor each
     n given
     """
-    for i in range(2, n + 1):
-    if n % i == 0:
-        count = 1
-        for j in range(1, (n // i) * i)):
-            if(i % j == 0):
-                count = 0
-                break
-        if(count == 1):
+    for i in range(1, n):
+        if n == ((n // i) * i):
             print("{}={}*{}".format(n, (n // i), i))
             break
 
